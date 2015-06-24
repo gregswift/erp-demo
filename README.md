@@ -30,7 +30,7 @@ profiles, with a mix of underlying module implementations.
 
 * Node definitions now bring in roles
 
-## 4_erp
+## 4_rnp
 
 In my view, this is the purer implementation of Roles and Profiles in the
 spirit of Craig Dunn's blog posts on the subject.
