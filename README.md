@@ -50,3 +50,12 @@ long running change from having a weird workflow or getting promoted too
 early.  With a good implementation of Roles and Profiles, Roles are very
 minimal and can stay in a single module.  This does not negate the concept
 of separating role sets into separate modules, such as role_myplatform.
+
+## 6_profile_data
+
+In Puppet 4 native data providers were enabled for modules, which allows
+you to provide a local hiera configuration at a module level. Because roles
+and profiles are focused at providing local configuration levels it can be
+beneficial to manage your hiera setup in a distributed manner like this. It
+allows you to avoid trying to determine which single hierarchy works for
+your entire org, and instead focus on what works for the implementations.
