@@ -1,0 +1,14 @@
+---
+version: 4
+datadir: data
+hierarchy:
+  - name: "Location by domain"
+    backend: yaml
+    path: "domain/%{facts.domain}"
+ 
+  - name: "Tier"
+    backed: yaml
+    path: "tier/%{settings::environment}"
+
+  - name: "common"
+    backend: yaml

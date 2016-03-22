@@ -1,0 +1,6 @@
+---
+profile_system::ssh_groups:
+  - admins
+profile_system::sudo_groups:
+  - admins
+profile_system::repo_server: "repo.%{::domain}"

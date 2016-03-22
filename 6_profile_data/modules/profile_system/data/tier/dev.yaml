@@ -1,0 +1,7 @@
+---
+profile_system::ssh_groups:
+  - admins
+  - developers
+profile_system::sudo_groups:
+  - admins
+  - developers

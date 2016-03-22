@@ -1,0 +1,26 @@
+{
+    "name": "gregswift-profile_system",
+    "version": "1.1.2",
+    "author": "gregswift",
+    "license": "Apache-2.0",
+    "summary": "Common profile items to apply to my system(s)",
+    "source": "git@github.com:gregswift/puppet-profile_system.git",
+    "project_page": "https://github.com/gregswift/puppet-profile_system",
+    "issues_url": "https://github.com/gregswift/puppet-profile_system/issues",
+    "tags": [
+        "common",
+        "system"
+    ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [ "6.0", "7.0" ]
+        }
+    ],
+    "dependencies": [
+        { "name": "herculesteam-augeasproviders_core", "version_requirement": ">=1.2.1" },
+        { "name": "herculesteam-augeasproviders_ssh",  "version_requirement": ">=1.2.1" },
+        { "name": "saz-sudo",                          "version_requirement": ">=3.1.0" },
+    ],
+    "data_provider": "hiera"
+}

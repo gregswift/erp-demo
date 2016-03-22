@@ -1,0 +1,24 @@
+{
+    "name": "gregswift-profile_web",
+    "version": "0.2.9",
+    "author": "gregswift",
+    "license": "Apache-2.0",
+    "summary": "Common profile items to apply to web servers",
+    "source": "git@github.com:gregswift/puppet-profile_web.git",
+    "project_page": "https://github.com/gregswift/puppet-profile_web",
+    "issues_url": "https://github.com/gregswift/puppet-profile_web/issues",
+    "tags": [
+        "common",
+        "system"
+    ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [ "6.0", "7.0" ]
+        }
+    ],
+    "dependencies": [
+        { "name": "jfryman-nginx", "version_requirement": ">=1.0.0" },
+    ],
+    "data_provider": "hiera"
+}

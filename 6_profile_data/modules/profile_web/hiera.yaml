@@ -1,0 +1,14 @@
+---
+version: 4
+datadir: data
+hierarchy:
+  - name: "Application"
+    backend: yaml
+    path: "app/%{facts.app}"
+ 
+  - name: "Tier"
+    backed: yaml
+    path: "tier/%{settings::environment}"
+
+  - name: "common"
+    backend: yaml
